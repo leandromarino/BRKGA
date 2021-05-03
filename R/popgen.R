@@ -11,6 +11,6 @@
 #'@export
 popgen<-function(n,p)
 {
-  pop<-matrix(runif(n*p),nrow=p,ncol=n)
+  pop<-matrix(runif(n * p), nrow = p, ncol = n)
   return(pop)
 }
